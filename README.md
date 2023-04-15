@@ -10,7 +10,7 @@ Adds a function that takes a file's contents and name as parameters, and downloa
 
 ```JavaScript
 import { useState } from "react";
-import downloadFile from "download-js";
+import downloadFile from "downloadfile-js";
 
 function App() {
   const [fileContents, setFileContents] = useState("Hi, I'm some content inside of a file!");
