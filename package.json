@@ -1,0 +1,9 @@
+{
+  "name": "download-js",
+  "version": "1.0.0",
+  "description": "function that takes a file's contents and name as parameters, and downloads the file",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Timothy Metcalfe",
+  "license": "MIT"
+}
