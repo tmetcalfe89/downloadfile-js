@@ -16,7 +16,7 @@ function App() {
   const [fileContents, setFileContents] = useState("Hi, I'm some content inside of a file!");
   const [fileName, setFileName] = useState("testfile.txt");
 
-  return <div style={{minHeight: "100vh", display: "flex"}}>
+  return <div style={{minHeight: "80vh", display: "flex", flexDirection: "column"}}>
     <textarea style={{flexGrow: 1}} value={fileContents} onChange={(e) => setFileContents(e.target.value)} />
     <input value={fileName} onChange={(e) => setFileName(e.target.value)} />
     <button onClick={() => downloadFile(fileContents, fileName)}>Save</button>
